@@ -9,6 +9,11 @@ body {
     flex-direction: column;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .footer, .hero {
     background-color: #1F2937;
     color: white;
@@ -30,6 +35,12 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 18px;
 }
 
 .footer {
