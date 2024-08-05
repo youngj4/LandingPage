@@ -76,6 +76,14 @@ ul {
     color: #E5E7EB;
 }
 
+.button {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+}
+
 .body2 {
     display: flex;
 }
