@@ -65,6 +65,17 @@ ul {
     display: flex;
 }
 
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-left: 120px
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .body2 {
     display: flex;
 }
