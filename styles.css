@@ -63,17 +63,22 @@ ul {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
 }
 
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    padding-left: 120px
+    padding-left: 120px;
+    width: 400px;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    width: 400px
 }
 
 .button {
@@ -83,6 +88,23 @@ ul {
     background-color: #3882F6;
     padding: 8px 24px;
 }
+
+.image-placeholder {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    flex-grow: 0;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text {
+    display: flex;
+    font-size: small;
+    color: #E5E7EB;
+}
+
 
 .body2 {
     display: flex;
