@@ -97,6 +97,16 @@ ul {
     color: #F9FAF8;
     background-color: #3882F6;
     padding: 8px 24px;
+    border: none
+}
+
+.button-two {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border: solid #F9FAF8
 }
 
 .image-placeholder {
@@ -140,18 +150,40 @@ ul {
 .quotes-content {
     font-style: italic;
     font-size: 32px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .quotes-author {
     font-weight: bold;
     align-self: flex-end;
-    margin-bottom: 5%
+    margin-bottom: 10%
 }
 
 .body4 {
     display: flex;
     flex: 1 1 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-background {
+    background-color: #3882F6;
+    display: flex;
+    gap: 200px;
+    padding: 5% 20%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text-main {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.cta-text-secondary {
+    font-size: 18px;
+    color: #F9FAF8
 }
