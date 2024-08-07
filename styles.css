@@ -12,6 +12,7 @@ body {
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
 }
 
 .header, .footer, .hero {
@@ -19,7 +20,7 @@ body {
 }
 
 .header, .footer {
-    height: 72px;
+    height: 50px;
     display: flex;
     color: #F9FAF8
 }
@@ -38,9 +39,8 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 120px
+    justify-content: space-evenly;
+
 }
 
 .logo {
@@ -63,14 +63,15 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    padding-right: 120px;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    
 }
 
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    padding-left: 120px;
+
     width: 400px;
 }
 
@@ -108,12 +109,31 @@ ul {
 
 .body2 {
     display: flex;
+    flex: 1 1 0;
 }
 
 .quotes {
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #E5E7EB;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-content {
+    font-style: italic;
+    font-size: 32px;
+}
+
+.quotes-author {
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .body4 {
-    display: flex; 
+    display: flex;
+    flex: 1 1 0; 
 }
