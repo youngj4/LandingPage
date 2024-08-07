@@ -15,11 +15,14 @@ body {
     flex: 1 1 0;
 }
 
-.header, .footer, .hero {
+.header,
+.footer,
+.hero {
     background-color: #1F2937;
 }
 
-.header, .footer {
+.header,
+.footer {
     height: 50px;
     display: flex;
     color: #F9FAF8
@@ -48,7 +51,7 @@ ul {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    
+
 }
 
 .links {
@@ -128,11 +131,51 @@ ul {
 }
 
 
-.body2 {
+.info {
     display: flex;
+    flex-direction: column;
     flex: 1 1 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    margin-bottom: 5%
+}
+
+.panels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 175px
+}
+
+.image-placeholder-2 {
+    display: flex;
+    border: solid #3882F6;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px
+}
+
+.panel-text {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    text-align:center
 }
 
 .quotes {
@@ -144,7 +187,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .quotes-content {
@@ -159,7 +202,7 @@ ul {
     margin-bottom: 10%
 }
 
-.body4 {
+.cta {
     display: flex;
     flex: 1 1 0;
     margin: 5% 10%;
